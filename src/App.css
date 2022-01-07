@@ -1,4 +1,8 @@
+@import url(https://api.fontshare.com/css?f[]=chillax@500&display=swap);
+
+
 .App {
+  font-family: 'Chillax';
   text-align: center;
 }
 
