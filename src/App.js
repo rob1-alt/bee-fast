@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
-import BEE from './img/mainBee.png';
 import logoNav from './img/logoNav.png'
 import threeDR from './img/right3d.png'
 import threeDL from './img/left3d.png'
-import button from './img/button.png'
+import arrow from './img/arrow.png'
 import './App.css';
 import { Helmet } from 'react-helmet'
 
@@ -17,15 +16,22 @@ function App() {
       </Helmet>
         <div className='headerNav'>
         <img src={logoNav} className="beeNav" />
+        <ul className='menu'>
+          <li>Test</li>
+          <li>Test</li>
+          <li>Test</li>
+        </ul>
         </div>
       <header className="App-header">
       <img src={threeDR} className="Dright" />
       <img src={threeDL} className="Dleft" />
-        <img src={BEE} className="App-logo" alt="logo" />
         <p className='liberty'>
-          BEE LIBERTY 🐝
+          Hi, it's <font color="#FFF200">Bee</font>
         </p>
-        <img src={button} className='buttonMin'/>
+      <p className='ride'>Change your ride</p>
+      <div className='union'></div>
+      <img src={arrow} className='arrow'/>
+      
       </header>
 
     </div>

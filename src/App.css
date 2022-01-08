@@ -6,15 +6,9 @@
   text-align: center;
 }
 
-.App-logo {
-  z-index: 9999;
-  height: 50vmin;
-}
-
-
 
 .App-header {
-  background-color: #ffffff;
+  background-color: #1A1A1A;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,8 +35,8 @@
 }
 
 .liberty{
-  color: black;
-  font-size: 1em;
+  z-index: 9999;
+  font-size: 3em;
   font-weight: bold;
 }
 
@@ -57,8 +51,28 @@
   position: absolute;
   left: -1vW;
 }
-
-.buttonMin{
+.menu{
+  display: flex;
+  color: #ffffff;
+  flex-direction: row;
+  list-style: none;
+}
+.ride{
   position: relative;
-  top: 20px;
+  top: -6.2vw;
+  font-size: 1.6em;
+}
+
+.union{
+  position: relative;
+  top: -7vw;
+  background: #ffffff;
+  height: 2px;
+  width: 350px;
+}
+
+.arrow{
+  position:absolute;
+  bottom: 1vw;
+  height: 5vmin ;
 }
