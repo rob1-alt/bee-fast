@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import BEE from './img/mainBee.png';
 import logoNav from './img/logoNav.png'
 import threeDR from './img/right3d.png'
@@ -24,7 +25,7 @@ function App() {
         <p className='liberty'>
           BEE LIBERTY 🐝
         </p>
-        <img src={button}/>
+        <img src={button} className='buttonMin'/>
       </header>
 
     </div>

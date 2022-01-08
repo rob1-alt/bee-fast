@@ -7,14 +7,11 @@
 }
 
 .App-logo {
+  z-index: 9999;
   height: 50vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #ffffff;
@@ -27,9 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 .headerNav{
   position: absolute;
@@ -39,7 +33,6 @@
 }
 
 .beeNav{
-
   position: absolute;
   left: 20px;
   top: 24px;
@@ -48,7 +41,6 @@
 }
 
 .liberty{
-  z-index: 9999;
   color: black;
   font-size: 1em;
   font-weight: bold;
@@ -64,4 +56,9 @@
   z-index: 0;
   position: absolute;
   left: -1vW;
+}
+
+.buttonMin{
+  position: relative;
+  top: 20px;
 }
