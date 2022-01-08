@@ -2,6 +2,7 @@ import BEE from './img/mainBee.png';
 import logoNav from './img/logoNav.png'
 import threeDR from './img/right3d.png'
 import threeDL from './img/left3d.png'
+import button from './img/button.png'
 import './App.css';
 import { Helmet } from 'react-helmet'
 
@@ -23,6 +24,7 @@ function App() {
         <p className='liberty'>
           BEE LIBERTY 🐝
         </p>
+        <img src={button}/>
       </header>
 
     </div>
