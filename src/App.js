@@ -1,4 +1,7 @@
-import logo from './bee.png';
+import BEE from './img/mainBee.png';
+import logoNav from './img/logoNav.png'
+import threeDR from './img/right3d.png'
+import threeDL from './img/left3d.png'
 import './App.css';
 import { Helmet } from 'react-helmet'
 
@@ -10,12 +13,18 @@ function App() {
         <title>Bee🐝</title>
         <meta name="Move fast ! " content="coding with bee ❤️ " />
       </Helmet>
+        <div className='headerNav'>
+        <img src={logoNav} className="beeNav" />
+        </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      <p>
-      Bee🐝
-      </p>
+      <img src={threeDR} className="Dright" />
+      <img src={threeDL} className="Dleft" />
+        <img src={BEE} className="App-logo" alt="logo" />
+        <p className='liberty'>
+          BEE LIBERTY 🐝
+        </p>
       </header>
+
     </div>
   );
 }
