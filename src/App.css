@@ -57,11 +57,11 @@
 .Dright{
   z-index: 0;
   position: absolute;
-  right: -1vW
+  right: -1vW;
 }
 
 .Dleft{
   z-index: 0;
   position: absolute;
-  left: -1vW
+  left: -1vW;
 }
