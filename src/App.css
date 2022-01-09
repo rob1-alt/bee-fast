@@ -34,6 +34,40 @@ a{
   color: white;
 }
 
+.App3-header{
+  background-color: #1A1A1A;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App4-header{
+  background-color: #1A1A1A;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App5-header{
+  background-color: #1A1A1A;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
 .titleDifferent{
   font-size:calc(34px + 2vmin);
   margin-left: 7vw;
@@ -123,3 +157,27 @@ li{
 .ruche{
   width: 100vw;
 }
+
+.blur{
+  width: 110vw;
+}
+
+.infos{
+  position: relative;
+  top: 200px;
+}
+
+.bgBlur{
+  width: 100vw;
+}
+
+.bee1{
+  margin-left: -68vw;
+  font-size:calc(34px + 2vmin);
+  color: #ffffff;
+}
+.yellowBee{
+  font-size:calc(34px + 2vmin);
+  color: #FFF200;
+}
+
