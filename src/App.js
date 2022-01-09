@@ -8,6 +8,7 @@ import picture from './img/picturesTrot.png'
 import ruche from './img/beeruche.png'
 import fullBlur from './img/fullBlur.png'
 import ReactPlayer from 'react-player'
+import footer from './img/footer.jpg'
 import './App.css';
 import { Helmet } from 'react-helmet'
 
@@ -62,7 +63,10 @@ function App() {
       </header>
       <header className='App5-header'>
         <h1>Newsletter</h1>
+
+        <img classname='footer' src={footer}/>
       </header>
+
 
     </div>
   );
