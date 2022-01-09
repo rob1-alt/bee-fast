@@ -4,7 +4,7 @@
 .App {
   overflow-x: hidden;
   font-family: 'Chillax';
-  text-align: center;
+  
 }
 
 a{
@@ -21,6 +21,23 @@ a{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App2-header{
+  background-color: #1A1A1A;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.titleDifferent{
+  font-size:calc(34px + 2vmin);
+  margin-left: 7vw;
+  margin-top: 6vw;
 }
 
 
@@ -97,4 +114,12 @@ li{
   position:absolute;
   bottom: 1vw;
   height: 5vmin ;
+}
+
+.wheelie{
+  width: 75vw;
+}
+
+.ruche{
+  width: 100vw;
 }

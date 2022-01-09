@@ -4,6 +4,8 @@ import threeDR from './img/right3d.png'
 import threeDL from './img/left3d.png'
 import arrow from './img/arrow.png'
 import trots from './img/trots.png'
+import picture from './img/picturesTrot.png'
+import ruche from './img/beeruche.png'
 import './App.css';
 import { Helmet } from 'react-helmet'
 
@@ -37,6 +39,11 @@ function App() {
       <a href="#">
       <img src={arrow} className='arrow'/>
       </a>
+      </header>
+      <header className='App2-header'>
+        <h3 className='titleDifferent'>Voir la vie différemment</h3>
+        <img className='wheelie' src={picture}/>
+        <img className='ruche' src={ruche}/>
       </header>
 
     </div>
