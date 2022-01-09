@@ -38,7 +38,7 @@ function App() {
         </p>
       <p className='ride'>Change your ride</p>
       <div className='union'></div>
-      <a href="#">
+      <a href="test">
       <img src={arrow} className='arrow'/>
       </a>
       </header>
