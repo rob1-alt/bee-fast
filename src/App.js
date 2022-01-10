@@ -11,6 +11,12 @@ import ReactPlayer from 'react-player'
 import footer from './img/footer.jpg'
 import './App.css';
 import { Helmet } from 'react-helmet'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
@@ -64,7 +70,7 @@ function App() {
       <header className='App5-header'>
         <h1>Newsletter</h1>
 
-        <img classname='footer' src={footer}/>
+        <img className='footerImg' src={footer}/>
       </header>
 
 
