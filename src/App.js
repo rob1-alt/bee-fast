@@ -9,6 +9,7 @@ import ruche from './img/beeruche.png'
 import fullBlur from './img/fullBlur.png'
 import ReactPlayer from 'react-player'
 import footer from './img/footer.jpg'
+import icons from './img/icons.png'
 import './App.css';
 import { Helmet } from 'react-helmet'
 import {
@@ -35,6 +36,7 @@ function App() {
             <a href='#'><li>CONTACT</li></a>
           </ul>
         </nav>
+        <img className='icons' src={icons}/>
         </div>
       <header className="App-header">
       <img src={threeDR} className="Dright" />

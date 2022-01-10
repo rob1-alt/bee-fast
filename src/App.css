@@ -186,3 +186,9 @@ li{
  height: 82vh;
 }
 
+.icons{
+  position: absolute;
+  width: 12vw;
+  margin-left: 1440px;
+  top: 42px;
+}
